@@ -10416,7 +10416,7 @@ tdcli_function ({ID="GetChats", offset_order_="9223372036854775807", offset_chat
 end
 -----------------------------------------TAGEER------------------------------------------------------ 
 end
-- END VERSION TAGEER DX 
+-- END VERSION TAGEER DX 
 -- all the file by TAGEER dx @pro_c9 
 -- join in chennel @TAGEER_ch 
 -- join in chennel @team_TAGEER
