@@ -57,7 +57,7 @@ file = io.open("TA", "w")  file:write([[
 killall screen
 while(true) do
 rm -fr ../.telegram-cli
-screen ./tg -s TAGEER.lua
+screen ./RUNTA.sh
 done
 echo -e "TAGEER IS RUN BOT"
 ]])  file:close()  
