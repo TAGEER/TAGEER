@@ -54,7 +54,7 @@ install
 
 else
 
-if [ ! -f ./tg ]; then
+if [ ! -T ./tg ]; then
 
 echo " BY TEAM FAEDER" 
 
@@ -64,6 +64,6 @@ exit 1
 
 fi
 
-screen ./tg -s TAGEER.lua
+screen ./RUNTA.sh
 
 fi
