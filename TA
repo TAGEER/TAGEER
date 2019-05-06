@@ -1,6 +1,6 @@
 killall screen
 while(true) do
 rm -fr ../.telegram-cli
-./tg -s TAGEER.lua
+screen ./tg -s TAGEER.lua
 done
 echo -e "TAGEER IS RUN BOT"
