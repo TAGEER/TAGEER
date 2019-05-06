@@ -54,7 +54,7 @@ install
 
 else
 
-if [ ! -T ./tg ]; then
+if [ ! -F ./tg ]; then
 
 echo " BY TEAM FAEDER" 
 
