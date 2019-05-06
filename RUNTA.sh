@@ -64,6 +64,6 @@ exit 1
 
 fi
 
-./tg -s TAGEER.lua
+screen ./tg -s TAGEER.lua
 
 fi
